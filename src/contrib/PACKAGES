@@ -1,0 +1,8 @@
+Package: Rblpapi
+Version: 0.3.16.9001
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
+License: file LICENSE
+MD5sum: d10eccad1c61c3af3730b64496220565
+NeedsCompilation: yes
