@@ -4,5 +4,4 @@ Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp, BH
 Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
 License: file LICENSE
-MD5sum: 7a3a9f69ec68fb93c4103da60dc4565b
-NeedsCompilation: yes
+Archs: x64
