@@ -6,12 +6,3 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
 License: file LICENSE
 MD5sum: f51710e5897a2a72510994e72084d05a
 NeedsCompilation: yes
-
-Package: Rblpapi
-Version: 0.3.16.9001
-Imports: Rcpp (>= 0.11.0), utils
-LinkingTo: Rcpp, BH
-Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
-License: file LICENSE
-MD5sum: b8864e0796cb8a3ef2cd01eef9c41530
-NeedsCompilation: yes
