@@ -44,3 +44,23 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
 License: file LICENSE
 MD5sum: 00f9e057837c7a4568c8938f163236ed
 NeedsCompilation: yes
+
+Package: Rblpapi
+Version: 0.3.16.9004
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
+        RcppSimdJson
+License: file LICENSE
+MD5sum: 1825780e304b08ae1ba8b72b5e9c455b
+NeedsCompilation: yes
+
+Package: Rblpapi
+Version: 0.3.16.9004
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
+        RcppSimdJson
+License: file LICENSE
+MD5sum: 2ceb87fa7f0cc593dc2311b926c763a3
+NeedsCompilation: yes
