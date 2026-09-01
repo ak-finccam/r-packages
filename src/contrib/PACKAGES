@@ -4,5 +4,23 @@ Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp, BH
 Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
 License: file LICENSE
-MD5sum: f51710e5897a2a72510994e72084d05a
+MD5sum: b8864e0796cb8a3ef2cd01eef9c41530
+NeedsCompilation: yes
+
+Package: Rblpapi
+Version: 0.3.16.9002
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
+License: file LICENSE
+MD5sum: 22c2a3b9672cefa937c2b5bd29c171bb
+NeedsCompilation: yes
+
+Package: Rblpapi
+Version: 0.3.16.9002
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
+License: file LICENSE
+MD5sum: f65b1e0945c853bfd12ad2c8c60d7733
 NeedsCompilation: yes
