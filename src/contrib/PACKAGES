@@ -29,16 +29,18 @@ Package: Rblpapi
 Version: 0.3.16.9003
 Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp, BH
-Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
+        RcppSimdJson
 License: file LICENSE
-MD5sum: 63b303b28b9b15930a2ef472f6a53c81
+MD5sum: 8b627f356fbd124bb99a34e9da1f3ae1
 NeedsCompilation: yes
 
 Package: Rblpapi
 Version: 0.3.16.9003
 Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp, BH
-Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
+        RcppSimdJson
 License: file LICENSE
-MD5sum: 3c286af3302edf5d565d14de025838fe
+MD5sum: 00f9e057837c7a4568c8938f163236ed
 NeedsCompilation: yes

@@ -18,6 +18,7 @@ Package: Rblpapi
 Version: 0.3.16.9003
 Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp, BH
-Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
+        RcppSimdJson
 License: file LICENSE
 Archs: x64
