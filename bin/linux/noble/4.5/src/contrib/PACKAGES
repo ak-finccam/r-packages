@@ -1,0 +1,14 @@
+Package: polars
+Version: 1.15.0
+Depends: R (>= 4.3)
+Imports: rlang (>= 1.2.0), S7 (>= 0.2.1)
+Suggests: arrow, bit64, blob, carrier (>= 0.2.0), cli, clock, curl,
+        data.table, ggplot2, hms, jsonlite, knitr, mirai (>= 2.3.0),
+        nanoarrow (>= 0.6.0), nycflights13, patrick (>= 0.3.0), pillar,
+        pkgload, purrr (>= 1.1.0), reticulate (>= 1.43.0), rmarkdown,
+        testthat (>= 3.3.2), tibble (>= 3.3.0), vctrs, withr
+License: MIT + file LICENSE
+MD5sum: befd3a4ceceda4d026f7ececb55fa990
+NeedsCompilation: yes
+Built: R 4.5.2; x86_64-pc-linux-gnu; 2026-09-10 15:33:50 UTC; unix
+File: polars_1.15.0.tar.gz

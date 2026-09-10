@@ -1,0 +1,52 @@
+{
+  "version": "1.15.0",
+  "source": {
+    "url": "https://r2.ropensci.org/87e1e1dba4186b1ce20c4a13e5933be4ea2dac54426b010e8d8e034ea96d7499",
+    "filename": "polars_1.15.0.tar.gz",
+    "sha256": "87e1e1dba4186b1ce20c4a13e5933be4ea2dac54426b010e8d8e034ea96d7499"
+  },
+  "windows": {
+    "url": "https://r2.ropensci.org/6216a77a6efd966ea40c15ff6f5a2efe831ef41b3723784d1bf52d83f3672d93",
+    "filename": "polars_1.15.0.zip",
+    "sha256": "6216a77a6efd966ea40c15ff6f5a2efe831ef41b3723784d1bf52d83f3672d93"
+  },
+  "rust": {
+    "url": "https://github.com/pola-rs/r-polars/releases/download/lib-v1.15.0-rc.1/libr_polars-1.15.0-rc.1-x86_64-unknown-linux-gnu.tar.gz",
+    "filename": "libr_polars-1.15.0-rc.1-x86_64-unknown-linux-gnu.tar.gz",
+    "sha256": "88823c77b21d0165aa4b31ecb5bd61e308ad339ea13390e40895c8fa0f11dd9c"
+  },
+  "linuxBuild": {
+    "image": "finccam.azurecr.io/r-linux-base@sha256:144da7aa87808b799cf1a40becf5b56d70adf467af55cde5c9e39568a8a7b2ac",
+    "r": "4.5.2",
+    "distribution": "Ubuntu 24.04.4 LTS (noble)",
+    "architecture": "x86_64",
+    "rlang": "1.3.0",
+    "S7": "0.2.2",
+    "rustCompiler": "not installed",
+    "networkDuringBuild": "disabled"
+  },
+  "modifications": "Windows and source archives add license notices only. Linux archive is built from the same source and upstream Rust static library, with license notices included.",
+  "published": [
+    {
+      "path": "src/contrib/polars_1.15.0.tar.gz",
+      "sha256": "809b1b296ef76a39b8df8158744976fae60d8b48a3e06f81764f32413f2078f9",
+      "bytes": 3939722
+    },
+    {
+      "path": "bin/windows/contrib/4.5/polars_1.15.0.zip",
+      "sha256": "60947bd239faf808025c433bad1503b1ffea72ceb7ef954a86515bcfb6261612",
+      "bytes": 40352762
+    },
+    {
+      "path": "bin/linux/noble/4.5/src/contrib/polars_1.15.0.tar.gz",
+      "sha256": "22b378274f368bb1bae39c087152c5d70c8895837e8d30664972f79304fd6835",
+      "bytes": 50325959
+    }
+  ],
+  "rustMirror": {
+    "url": "https://github.com/ak-finccam/r-packages/releases/download/polars-1.15.0/libr_polars-1.15.0-rc.1-x86_64-unknown-linux-gnu.tar.gz",
+    "sha256": "66c28fb0cd6b8af20fd8e26bd3d5cc990c306c3a84acea5c359ba302f656c2b9",
+    "bytes": 267284613,
+    "modifications": "Added license notices; the static library is unchanged."
+  }
+}

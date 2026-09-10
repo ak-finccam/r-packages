@@ -5,6 +5,7 @@ LinkingTo: Rcpp, BH
 Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
 License: file LICENSE
 Archs: x64
+File: Rblpapi_0.3.16.9001.zip
 
 Package: Rblpapi
 Version: 0.3.16.9002
@@ -13,6 +14,7 @@ LinkingTo: Rcpp, BH
 Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
 License: file LICENSE
 Archs: x64
+File: Rblpapi_0.3.16.9002.zip
 
 Package: Rblpapi
 Version: 0.3.16.9003
@@ -22,6 +24,7 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
         RcppSimdJson
 License: file LICENSE
 Archs: x64
+File: Rblpapi_0.3.16.9003.zip
 
 Package: Rblpapi
 Version: 0.3.16.9004
@@ -31,3 +34,17 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
         RcppSimdJson
 License: file LICENSE
 Archs: x64
+File: Rblpapi_0.3.16.9004.zip
+
+Package: polars
+Version: 1.15.0
+Depends: R (>= 4.3)
+Imports: rlang (>= 1.2.0), S7 (>= 0.2.1)
+Suggests: arrow, bit64, blob, carrier (>= 0.2.0), cli, clock, curl,
+        data.table, ggplot2, hms, jsonlite, knitr, mirai (>= 2.3.0),
+        nanoarrow (>= 0.6.0), nycflights13, patrick (>= 0.3.0), pillar,
+        pkgload, purrr (>= 1.1.0), reticulate (>= 1.43.0), rmarkdown,
+        testthat (>= 3.3.2), tibble (>= 3.3.0), vctrs, withr
+License: MIT + file LICENSE
+Archs: x64
+File: polars_1.15.0.zip

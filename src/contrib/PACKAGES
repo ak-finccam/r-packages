@@ -6,15 +6,7 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
 License: file LICENSE
 MD5sum: b8864e0796cb8a3ef2cd01eef9c41530
 NeedsCompilation: yes
-
-Package: Rblpapi
-Version: 0.3.16.9002
-Imports: Rcpp (>= 0.11.0), utils
-LinkingTo: Rcpp, BH
-Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
-License: file LICENSE
-MD5sum: 22c2a3b9672cefa937c2b5bd29c171bb
-NeedsCompilation: yes
+File: Rblpapi_0.3.16.9001.tar.gz
 
 Package: Rblpapi
 Version: 0.3.16.9002
@@ -24,16 +16,7 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite
 License: file LICENSE
 MD5sum: f65b1e0945c853bfd12ad2c8c60d7733
 NeedsCompilation: yes
-
-Package: Rblpapi
-Version: 0.3.16.9003
-Imports: Rcpp (>= 0.11.0), utils
-LinkingTo: Rcpp, BH
-Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
-        RcppSimdJson
-License: file LICENSE
-MD5sum: 8b627f356fbd124bb99a34e9da1f3ae1
-NeedsCompilation: yes
+File: Rblpapi_0.3.16.9002.tar.gz
 
 Package: Rblpapi
 Version: 0.3.16.9003
@@ -44,16 +27,7 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
 License: file LICENSE
 MD5sum: 00f9e057837c7a4568c8938f163236ed
 NeedsCompilation: yes
-
-Package: Rblpapi
-Version: 0.3.16.9004
-Imports: Rcpp (>= 0.11.0), utils
-LinkingTo: Rcpp, BH
-Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
-        RcppSimdJson
-License: file LICENSE
-MD5sum: 1825780e304b08ae1ba8b72b5e9c455b
-NeedsCompilation: yes
+File: Rblpapi_0.3.16.9003.tar.gz
 
 Package: Rblpapi
 Version: 0.3.16.9004
@@ -64,3 +38,18 @@ Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
 License: file LICENSE
 MD5sum: 2ceb87fa7f0cc593dc2311b926c763a3
 NeedsCompilation: yes
+File: Rblpapi_0.3.16.9004.tar.gz
+
+Package: polars
+Version: 1.15.0
+Depends: R (>= 4.3)
+Imports: rlang (>= 1.2.0), S7 (>= 0.2.1)
+Suggests: arrow, bit64, blob, carrier (>= 0.2.0), cli, clock, curl,
+        data.table, ggplot2, hms, jsonlite, knitr, mirai (>= 2.3.0),
+        nanoarrow (>= 0.6.0), nycflights13, patrick (>= 0.3.0), pillar,
+        pkgload, purrr (>= 1.1.0), reticulate (>= 1.43.0), rmarkdown,
+        testthat (>= 3.3.2), tibble (>= 3.3.0), vctrs, withr
+License: MIT + file LICENSE
+MD5sum: 86cab8c14f7440495922f885d268921a
+NeedsCompilation: yes
+File: polars_1.15.0.tar.gz
