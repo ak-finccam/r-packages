@@ -1,3 +1,27 @@
+Package: azidentity
+Version: 1.0.0
+Depends: R (>= 4.2)
+Suggests: devtools (< 3.0.0), devtools (>= 2.5.2), rextendr (< 1.0.0),
+        rextendr (>= 0.5.0)
+License: MIT + file LICENSE
+MD5sum: b1ec5f164cfdaeb48dfd62134add29e8
+NeedsCompilation: yes
+File: azidentity_1.0.0.tar.gz
+
+Package: polars
+Version: 1.15.0
+Depends: R (>= 4.3)
+Imports: rlang (>= 1.2.0), S7 (>= 0.2.1)
+Suggests: arrow, bit64, blob, carrier (>= 0.2.0), cli, clock, curl,
+        data.table, ggplot2, hms, jsonlite, knitr, mirai (>= 2.3.0),
+        nanoarrow (>= 0.6.0), nycflights13, patrick (>= 0.3.0), pillar,
+        pkgload, purrr (>= 1.1.0), reticulate (>= 1.43.0), rmarkdown,
+        testthat (>= 3.3.2), tibble (>= 3.3.0), vctrs, withr
+License: MIT + file LICENSE
+MD5sum: 86cab8c14f7440495922f885d268921a
+NeedsCompilation: yes
+File: polars_1.15.0.tar.gz
+
 Package: Rblpapi
 Version: 0.3.16.9001
 Imports: Rcpp (>= 0.11.0), utils
@@ -40,16 +64,12 @@ MD5sum: 2ceb87fa7f0cc593dc2311b926c763a3
 NeedsCompilation: yes
 File: Rblpapi_0.3.16.9004.tar.gz
 
-Package: polars
-Version: 1.15.0
-Depends: R (>= 4.3)
-Imports: rlang (>= 1.2.0), S7 (>= 0.2.1)
-Suggests: arrow, bit64, blob, carrier (>= 0.2.0), cli, clock, curl,
-        data.table, ggplot2, hms, jsonlite, knitr, mirai (>= 2.3.0),
-        nanoarrow (>= 0.6.0), nycflights13, patrick (>= 0.3.0), pillar,
-        pkgload, purrr (>= 1.1.0), reticulate (>= 1.43.0), rmarkdown,
-        testthat (>= 3.3.2), tibble (>= 3.3.0), vctrs, withr
+Package: sentry.sdk
+Version: 0.1.0
+Depends: R (>= 4.2)
+Imports: R6
+Suggests: lgr, plumber
 License: MIT + file LICENSE
-MD5sum: 86cab8c14f7440495922f885d268921a
+MD5sum: 3e200120c822ba505e54dcb34345e7d4
 NeedsCompilation: yes
-File: polars_1.15.0.tar.gz
+File: sentry.sdk_0.1.0.tar.gz
