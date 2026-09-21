@@ -8,6 +8,16 @@ MD5sum: b1ec5f164cfdaeb48dfd62134add29e8
 NeedsCompilation: yes
 File: azidentity_1.0.0.tar.gz
 
+Package: azidentity
+Version: 1.1.0
+Depends: R (>= 4.2)
+Suggests: devtools (< 3.0.0), devtools (>= 2.5.2), rextendr (< 1.0.0),
+        rextendr (>= 0.5.0)
+License: MIT + file LICENSE
+MD5sum: 2bf2a0105bbc1f834ffae079111512e7
+NeedsCompilation: yes
+File: azidentity_1.1.0.tar.gz
+
 Package: polars
 Version: 1.15.0
 Depends: R (>= 4.3)

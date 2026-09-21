@@ -9,6 +9,17 @@ NeedsCompilation: yes
 Built: R 4.5.2; x86_64-pc-linux-gnu; 2026-09-21 13:13:46 UTC; unix
 File: azidentity_1.0.0.tar.gz
 
+Package: azidentity
+Version: 1.1.0
+Depends: R (>= 4.2)
+Suggests: devtools (< 3.0.0), devtools (>= 2.5.2), rextendr (< 1.0.0),
+        rextendr (>= 0.5.0)
+License: MIT + file LICENSE
+MD5sum: 6ada7fe78f2ae0889dc2c34ca56176bd
+NeedsCompilation: yes
+Built: R 4.5.3; x86_64-pc-linux-gnu; 2026-09-21 15:00:59 UTC; unix
+File: azidentity_1.1.0.tar.gz
+
 Package: polars
 Version: 1.15.0
 Depends: R (>= 4.3)

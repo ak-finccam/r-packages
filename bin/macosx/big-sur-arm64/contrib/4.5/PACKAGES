@@ -1,0 +1,8 @@
+Package: azidentity
+Version: 1.1.0
+Depends: R (>= 4.2)
+Suggests: devtools (< 3.0.0), devtools (>= 2.5.2), rextendr (< 1.0.0),
+        rextendr (>= 0.5.0)
+License: MIT + file LICENSE
+MD5sum: d7de9129f291308402a9e6a0b9472dc3
+File: azidentity_1.1.0.tgz
