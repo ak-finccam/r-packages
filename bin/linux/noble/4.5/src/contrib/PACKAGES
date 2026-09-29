@@ -34,3 +34,15 @@ MD5sum: befd3a4ceceda4d026f7ececb55fa990
 NeedsCompilation: yes
 Built: R 4.5.2; x86_64-pc-linux-gnu; 2026-09-10 15:33:50 UTC; unix
 File: polars_1.15.0.tar.gz
+
+Package: Rblpapi
+Version: 0.3.16.9004
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
+        RcppSimdJson
+License: file LICENSE
+MD5sum: 1825780e304b08ae1ba8b72b5e9c455b
+NeedsCompilation: yes
+Built: R 4.5.3; x86_64-pc-linux-gnu; 2026-09-01 17:38:33 UTC; unix
+File: Rblpapi_0.3.16.9004.tar.gz
