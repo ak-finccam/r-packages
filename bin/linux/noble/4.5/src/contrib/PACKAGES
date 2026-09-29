@@ -42,7 +42,7 @@ LinkingTo: Rcpp, BH
 Suggests: xts, zoo, data.table, simplermarkdown, tinytest, jsonlite,
         RcppSimdJson
 License: file LICENSE
-MD5sum: 1825780e304b08ae1ba8b72b5e9c455b
+MD5sum: 5e88ca49aa862492ec62c6a4385cf1b0
 NeedsCompilation: yes
-Built: R 4.5.3; x86_64-pc-linux-gnu; 2026-09-01 17:38:33 UTC; unix
+Built: R 4.5.3; x86_64-pc-linux-gnu; 2026-09-29 08:39:56 UTC; unix
 File: Rblpapi_0.3.16.9004.tar.gz
