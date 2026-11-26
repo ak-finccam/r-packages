@@ -93,3 +93,13 @@ License: MIT + file LICENSE
 MD5sum: 3e200120c822ba505e54dcb34345e7d4
 NeedsCompilation: yes
 File: sentry.sdk_0.1.0.tar.gz
+
+Package: sentry.sdk
+Version: 0.1.1
+Depends: R (>= 4.2)
+Imports: R6
+Suggests: lgr, plumber
+License: MIT + file LICENSE
+MD5sum: 0668c6475ac1cbd0d6f15ef72e5b0883
+NeedsCompilation: yes
+File: sentry.sdk_0.1.1.tar.gz

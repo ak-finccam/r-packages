@@ -57,3 +57,14 @@ MD5sum: 5e88ca49aa862492ec62c6a4385cf1b0
 NeedsCompilation: yes
 Built: R 4.5.3; x86_64-pc-linux-gnu; 2026-09-29 08:39:56 UTC; unix
 File: Rblpapi_0.3.16.9004.tar.gz
+
+Package: sentry.sdk
+Version: 0.1.1
+Depends: R (>= 4.2)
+Imports: R6
+Suggests: lgr, plumber
+License: MIT + file LICENSE
+MD5sum: 4dd2b3a747b97ae9475a6ea58ad89419
+NeedsCompilation: yes
+Built: R 4.5.2; x86_64-pc-linux-gnu; 2026-11-26 16:11:59 UTC; unix
+File: sentry.sdk_0.1.1.tar.gz

@@ -84,3 +84,12 @@ Suggests: lgr, plumber
 License: MIT + file LICENSE
 Archs: x64
 File: sentry.sdk_0.1.0.zip
+
+Package: sentry.sdk
+Version: 0.1.1
+Depends: R (>= 4.2)
+Imports: R6
+Suggests: lgr, plumber
+License: MIT + file LICENSE
+Archs: x64
+File: sentry.sdk_0.1.1.zip
