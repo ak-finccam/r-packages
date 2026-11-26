@@ -15,3 +15,12 @@ Suggests: devtools (< 3.0.0), devtools (>= 2.5.2), rextendr (< 1.0.0),
 License: MIT + file LICENSE
 MD5sum: feb411ae297566bf540353df1498beac
 File: azidentity_1.2.0.tgz
+
+Package: sentry.sdk
+Version: 0.1.1
+Depends: R (>= 4.2)
+Imports: R6
+Suggests: lgr, plumber
+License: MIT + file LICENSE
+MD5sum: 730f417d08c5a41c18c106d322e4c197
+File: sentry.sdk_0.1.1.tgz
